@@ -1,0 +1,221 @@
+{
+  "title": "Hopenity Consumer Health Data Policy",
+  "lastUpdated": "January 22, 2026",
+  "effectiveDate": "January 22, 2026",
+  "introduction": "This Hopenity Consumer Health Data Privacy Policy supplements the Hopenity Privacy Policy and applies to the Services, as defined therein. The Services are operated by Hopenity USDS JointVenture LLC ('we' or 'us'). We are committed to protecting the privacy of consumer health data.",
+  "sections": [
+    {
+      "id": "information-we-collect",
+      "title": "Information We Collect",
+      "content": "We may collect information from and about you, including information that you provide, automatically collected information, and information from other sources. If you choose to engage in public activities on the Services, you should be aware that any information you share may be read, collected, or used by other users and the public.",
+      "subsections": [
+        {
+          "heading": "Information You Provide",
+          "content": "The scope of consumer health data is defined differently under different laws. For your information and awareness, we may collect the following information depending on your settings and how you use the Services:",
+          "bullets": [
+            "Video and audio content you create, upload, or share that may contain health information",
+            "Comments, captions, and descriptions related to your videos",
+            "Messages and communications with other users",
+            "Information you provide when setting up your profile or account",
+            "Information about your interactions with health-related content"
+          ]
+        },
+        {
+          "heading": "Automatically Collected Information",
+          "content": "We automatically collect certain information about your device and how you use the Services:",
+          "bullets": [
+            "Device identifiers and settings",
+            "Information about your interactions with the Services",
+            "Content preferences and viewing history",
+            "Location information (if you grant permission)",
+            "Analytics related to health-related content consumption"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-we-use",
+      "title": "How We Use Your Information",
+      "content": "We use consumer health data for various purposes to provide and improve our Services. The legal basis for processing your consumer health data varies depending on your jurisdiction and the specific use case.",
+      "subsections": [
+        {
+          "heading": "Primary Purposes",
+          "content": "We may use your consumer health data to:",
+          "bullets": [
+            "Provide and maintain the Services",
+            "Personalize your experience and recommendations",
+            "Improve our Services and develop new features",
+            "Ensure safety and security of the platform",
+            "Comply with applicable laws and regulations",
+            "Communicate with you about your account and the Services"
+          ]
+        },
+        {
+          "heading": "Analytics and Research",
+          "content": "We may use aggregated and de-identified consumer health data for research, analytics, and improving our Services.",
+          "bullets": [
+            "Understanding trends in health content consumption",
+            "Improving content recommendations",
+            "Developing better safety and moderation tools",
+            "Research to enhance user experience"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-we-share",
+      "title": "How We Share Your Information",
+      "content": "We are committed to limiting the sharing of your consumer health data. In most cases, we do not share consumer health data with third parties without your explicit consent, except as described below.",
+      "subsections": [
+        {
+          "heading": "Service Providers",
+          "content": "We may share consumer health data with service providers who assist us in providing the Services:",
+          "bullets": [
+            "Cloud infrastructure providers",
+            "Analytics vendors",
+            "Customer support providers",
+            "Payment processors",
+            "Security and compliance partners"
+          ]
+        },
+        {
+          "heading": "Legal Requirements",
+          "content": "We may disclose your consumer health data when required by law or in response to valid legal processes:",
+          "bullets": [
+            "Responses to government requests",
+            "Protection of legal rights and safety",
+            "Prevention of fraud or abuse",
+            "Compliance with applicable laws"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "your-rights",
+      "title": "Your Rights and Choices",
+      "content": "Depending on your jurisdiction, you may have certain rights regarding your consumer health data. We respect your privacy rights and provide mechanisms to exercise them.",
+      "subsections": [
+        {
+          "heading": "Access and Portability",
+          "content": "You have the right to access the consumer health data we hold about you and request a portable copy of your data in a commonly used format.",
+          "bullets": [
+            "Request your personal data at any time",
+            "Receive data in a machine-readable format",
+            "Transfer your data to other services",
+            "Understand what data we collect and why"
+          ]
+        },
+        {
+          "heading": "Correction and Deletion",
+          "content": "You have the right to correct inaccurate data and request deletion of your consumer health data.",
+          "bullets": [
+            "Correct inaccurate or incomplete information",
+            "Request deletion of your account and associated data",
+            "Delete specific content you've shared",
+            "Opt-out of certain data uses"
+          ]
+        },
+        {
+          "heading": "Opt-Out Rights",
+          "content": "You may have the right to opt out of certain uses of your consumer health data:",
+          "bullets": [
+            "Opt out of targeted advertising",
+            "Opt out of data sales (if applicable)",
+            "Control visibility of health-related content",
+            "Manage notification preferences"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "privacy-updates",
+      "title": "Privacy Policy Updates",
+      "content": "We may update this policy periodically as our products and services evolve. We encourage you to review this policy regularly to stay informed about how we protect your consumer health data.",
+      "subsections": [
+        {
+          "heading": "Changes to This Policy",
+          "content": "We will notify you of any material changes to this policy by posting the updated policy and updating the 'Last Updated' date.",
+          "bullets": [
+            "Material changes will be highlighted",
+            "Continued use constitutes acceptance of changes",
+            "Your rights remain protected under applicable laws",
+            "You may contact us with questions about updates"
+          ]
+        }
+      ]
+    }
+    ,
+    {
+      "id": "data-security",
+      "title": "Data Security and Retention",
+      "content": "We take reasonable technical, administrative, and physical safeguards to protect consumer health data. We also retain data only as long as necessary for the purposes described in this policy and as required by law.",
+      "subsections": [
+        {
+          "heading": "Security Measures",
+          "content": "We use industry-standard controls to protect data, including encryption, access controls, and monitoring.",
+          "bullets": [
+            "Encryption of data in transit and at rest",
+            "Access controls and least-privilege for internal systems",
+            "Regular security audits and vulnerability scanning",
+            "Incident response procedures"
+          ]
+        },
+        {
+          "heading": "Data Retention",
+          "content": "We retain consumer health data for as long as necessary to provide the Services, comply with legal obligations, resolve disputes, and enforce agreements.",
+          "bullets": [
+            "Retention periods vary by data type and purpose",
+            "We delete or de-identify data when no longer needed",
+            "You can request deletion as described in the 'Your Rights and Choices' section"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "children-teens",
+      "title": "Children and Teens",
+      "content": "Our Services are not intended for children under applicable minimum ages. We do not knowingly collect consumer health data from children without parental consent.",
+      "subsections": [
+        {
+          "heading": "Age Restrictions",
+          "content": "If you are a parent or guardian and believe we have collected personal data from a child without consent, contact us to request deletion.",
+          "bullets": [
+            "Parents can request removal of their child's data",
+            "We follow applicable laws for child data protections"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other-rights",
+      "title": "Other Rights",
+      "content": "Some jurisdictions provide additional rights related to consumer health data. These may include restrictions on automated decision-making, additional consent requirements, or supplemental remedies.",
+      "subsections": [
+        {
+          "heading": "State and Local Rights",
+          "content": "Depending on where you live, you may have extra rights under local laws.",
+          "bullets": [
+            "Examples include the right to limit certain processing in specific states",
+            "Contact us for details about rights in your jurisdiction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "contact-us",
+      "title": "Contact Us",
+      "content": "If you have questions about this policy, want to exercise your rights, or need support, contact us using the methods below. loIf you have questions about this policy, want to exercise your rights, or need support, contact us using the methods below. We may collect information from and about you, including information that you provide, automatically collected information, and information from other sources. If you choose to engage in public activities on the Services, you should be aware that any information you share may be read, collected, or used by other users and the public.",
+      "subsections": [
+        {
+          "heading": "How to Reach Us",
+          "content": "You can contact our privacy team by email, post, or through the app's support channels.",
+          "bullets": [
+            "Email: privacy@hopenity.example",
+            "Mail: Hopenity USDS JointVenture LLC, Attn: Privacy, 123 Example St, City, State",
+            "In-app support and help center"
+          ]
+        }
+      ]
+    }
+  ]
+}
