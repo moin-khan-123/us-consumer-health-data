@@ -1,4 +1,5 @@
 import Sidebar from '../components/Sidebar';
+import policyData from '../../data/policy.json';
 import Header from '../components/Header';
 import PolicyContent from '../components/PolicyContent';
 
@@ -15,7 +16,7 @@ export default function PolicyPage() {
       <Header />
 
       {/* Sidebar Navigation (Desktop) */}
-      <Sidebar />
+      <Sidebar sections={(policyData.sections || []).map((s: any) => ({ id: s.id, title: s.title }))} />
 
       {/* Main Content */}
       <PolicyContent />
