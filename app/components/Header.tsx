@@ -10,8 +10,8 @@ interface NavItem {
 
 const NAV_ITEMS: NavItem[] = [
   { href: '/', label: 'Home' },
-  { href: '/blog', label: 'Docs' },
-  { href: '/blog/policy', label: 'Policy' },
+  { href: '/docs', label: 'Docs' },
+  { href: '/docs/policy', label: 'Policy' },
 ];
 
 export default function Header() {

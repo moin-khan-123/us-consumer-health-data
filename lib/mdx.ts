@@ -4,24 +4,24 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import remarkHtml from 'remark-html';
 
-export type BlogPostMeta = {
+export type DocPostMeta = {
   slug: string;
   title: string;
   description?: string;
   date?: string;
 };
 
-const BLOG_PATH = path.join(process.cwd(), 'content', 'blog');
+const DOCS_PATH = path.join(process.cwd(), 'content', 'docs');
 
-export function getBlogPostSlugs() {
+export function getDocPostSlugs() {
   return fs
-    .readdirSync(BLOG_PATH)
+    .readdirSync(DOCS_PATH)
     .filter((file) => file.endsWith('.mdx'))
     .map((file) => file.replace(/\.mdx$/, ''));
 }
 
-export function getBlogPostBySlug(slug: string): BlogPostMeta {
-  const source = fs.readFileSync(path.join(BLOG_PATH, `${slug}.mdx`), 'utf8');
+export function getDocPostBySlug(slug: string): DocPostMeta {
+  const source = fs.readFileSync(path.join(DOCS_PATH, `${slug}.mdx`), 'utf8');
   const { data } = matter(source);
 
   return {
@@ -32,17 +32,17 @@ export function getBlogPostBySlug(slug: string): BlogPostMeta {
   };
 }
 
-export function getAllBlogPosts() {
-  return getBlogPostSlugs()
-    .map((slug) => getBlogPostBySlug(slug))
+export function getAllDocPosts() {
+  return getDocPostSlugs()
+    .map((slug) => getDocPostBySlug(slug))
     .sort((a, b) => {
       if (!a.date || !b.date) return 0;
       return b.date.localeCompare(a.date);
     });
 }
 
-export async function getBlogPostComponent(slug: string) {
-  const source = fs.readFileSync(path.join(BLOG_PATH, `${slug}.mdx`), 'utf8');
+export async function getDocPostComponent(slug: string) {
+  const source = fs.readFileSync(path.join(DOCS_PATH, `${slug}.mdx`), 'utf8');
   const { content } = matter(source);
   const html = await remark().use(remarkHtml).process(content);
   return html.toString();

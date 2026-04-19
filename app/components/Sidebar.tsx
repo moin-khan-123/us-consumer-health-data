@@ -14,26 +14,34 @@ export default function Sidebar({ sections }: SidebarProps) {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY + 100;
+      const scrollPosition = window.scrollY + 120;
+      let matchedId = '';
+      const documentBottom = window.innerHeight + window.scrollY;
+      const totalHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
 
       for (const section of sections) {
         const element = document.getElementById(section.id);
-        if (element) {
-          const { offsetTop, offsetHeight } = element;
-          if (
-            scrollPosition >= offsetTop &&
-            scrollPosition < offsetTop + offsetHeight
-          ) {
-            setActiveId(section.id);
-            break;
-          }
+        if (!element) continue;
+
+        const { offsetTop } = element;
+        if (scrollPosition >= offsetTop) {
+          matchedId = section.id;
         }
+      }
+
+      if (documentBottom >= totalHeight - 20 && sections.length > 0) {
+        matchedId = sections[sections.length - 1].id;
+      }
+
+      if (matchedId && matchedId !== activeId) {
+        setActiveId(matchedId);
       }
     };
 
     window.addEventListener('scroll', handleScroll);
+    handleScroll();
     return () => window.removeEventListener('scroll', handleScroll);
-  }, [sections]);
+  }, [sections, activeId]);
 
   const handleClick = (id: string) => {
     const element = document.getElementById(id);

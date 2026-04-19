@@ -1,8 +1,8 @@
 import Link from 'next/link';
-import { getAllBlogPosts } from '@/lib/mdx';
+import { getAllDocPosts } from '@/lib/mdx';
 
-export default function BlogIndexPage() {
-  const posts = getAllBlogPosts();
+export default function DocsIndexPage() {
+  const posts = getAllDocPosts();
 
   return (
     <div className="min-h-screen bg-black text-white">
@@ -19,7 +19,7 @@ export default function BlogIndexPage() {
           {posts.map((post) => (
             <Link
               key={post.slug}
-              href={`/blog/${post.slug}`}
+              href={`/docs/${post.slug}`}
               className="group block rounded-3xl border border-gray-800 bg-white/5 p-7 transition hover:border-gray-700 hover:bg-white/10"
             >
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-red-500">{post.date ?? 'Policy'}</p>
